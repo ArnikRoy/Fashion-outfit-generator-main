@@ -5,3 +5,4 @@ Requests==2.31.0
 # smtp  # This should be smtplib which is also part of the standard library
 gunicorn
 google-genai==1.13.0
+python-dotenv==1.0.0
