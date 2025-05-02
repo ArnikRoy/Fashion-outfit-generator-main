@@ -3,4 +3,4 @@ Flask==2.3.2
 Pillow==10.0.0  # Using the latest version
 Requests==2.31.0
 # smtp  # This should be smtplib which is also part of the standard library
-
+gunicorn
