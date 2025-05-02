@@ -2,8 +2,6 @@ from flask import Flask,url_for,redirect,request,render_template,Response;
 from google import genai
 import os
 import PIL
-from PIL import Image
-import requests
 import io
 import sqlite3
 import smtplib
@@ -11,14 +9,9 @@ import random
 from dotenv import load_dotenv
 
 load_dotenv()
-import base64
-from openai import OpenAI
 
 from google import genai
 from google.genai import types
-from PIL import Image
-from io import BytesIO
-import base64
 
 client = genai.Client(api_key=os.getenv("GEM_API_KEY"))
 
