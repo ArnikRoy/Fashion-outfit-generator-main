@@ -27,5 +27,5 @@ def generate(user_input):
     print(f"Image saved as {image_path}")
 while True:
     prop = input("enter prompt: ")
-    for i in range(1,9):
+    for i in range(1,7):
         generate(str(prop) + str(i))

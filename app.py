@@ -89,7 +89,7 @@ def generate_image(prop):
             print(f"Error generating image: {e}")
             return str(e)
     
-    for i in range(1,9):
+    for i in range(1,7):
         generate(str(prop) + " outfit " + str(i), i)
 
 @app.route('/')
